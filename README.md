@@ -1,34 +1,22 @@
 
+---------------------------------------------------------------------------------
+README.md
+---------------------------------------------------------------------------------
+Full documentation and usage guide / Documentation complète et guide d'utilisation
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
 # 📘 **CARNAVERONE SECURE OS SUITE**
-
+---------------------------------------------------------------------------------
 Welcome to the Carnaverone Secure OS Suite, a powerful collection of automation scripts designed to configure, secure, and optimize your development environment across multiple operating systems. This suite provides enhanced security, automation, and ease of use for both developers and IT professionals.
-
+This suite offers a seamless setup experience for development, security, and automation on the most popular operating systems.
+---------------------------------------------------------------------------------
 Bienvenue dans la Carnaverone Secure OS Suite, une puissante collection de scripts d'automatisation conçue pour configurer, sécuriser et optimiser votre environnement de développement sur plusieurs systèmes d'exploitation. Cette suite offre une sécurité renforcée, une automatisation et une facilité d'utilisation pour les développeurs et les professionnels de l'informatique.
-
+Cette suite offre une expérience de configuration transparente pour le développement, la sécurité et l'automatisation sur les systèmes d'exploitation les plus populaires.
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
 🛡️ Supported Operating Systems / Systèmes d'exploitation pris en charge
 
-Ubuntu
-
-Arch Linux
-
-Pop!_OS
-
-Debian
-
-Fedora
-
-CentOS/Rocky/AlmaLinux
-
-macOS
-
-Windows (via WSL)
-
-This suite offers a seamless setup experience for development, security, and automation on the most popular operating systems.
-
-Cette suite offre une expérience de configuration transparente pour le développement, la sécurité et l'automatisation sur les systèmes d'exploitation les plus populaires.
-
-------------------------------------------------------------------------------
-This repository contains **8 complete setup and configuration scripts** for the following operating systems:  
+This repository contains **8 complete setup and configuration scripts** 
 - **Ubuntu**  
 - **Arch Linux**  
 - **Pop!_OS**  
@@ -37,6 +25,10 @@ This repository contains **8 complete setup and configuration scripts** for the 
 - **CentOS/Rocky/AlmaLinux**  
 - **macOS**  
 - **Windows (via WSL)**  
+
+
+
+------------------------------------------------------------------------------
 ------------------------------------------------------------------------------
 These scripts automatically install and configure a **fully secure development environment** with:  
 - **Text-to-Speech (TTS) Tools**  
@@ -216,6 +208,9 @@ curl -X POST http://localhost:5000/tts     -H "Content-Type: application/json"  
 | **Docker issues**          | Restart Docker: `sudo systemctl restart docker` |
 
 ---
+
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
 ⚙️ What Does This Suite Install? / Qu'installe cette suite ?
 
 The Carnaverone Secure OS Suite provides a robust set of essential tools and services for a secure development environment, including:
@@ -274,6 +269,8 @@ Mises à jour des paquets — Mises à jour automatiques des paquets système.
 
 Fichiers de journalisation — Journaux détaillés de l'exécution des scripts pour le débogage.
 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
 📂 Repository Contents / Contenu du Répertoire
 
 File / Fichier
@@ -312,9 +309,9 @@ setup_full_windows_wsl.sh
 
 Full setup script for Windows (via WSL) / Script de configuration complet pour Windows (via WSL)
 
-README.md
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
 
-Full documentation and usage guide / Documentation complète et guide d'utilisation
 ---
 ## 📋 **CONTRIBUTIONS**  
 Contributions are welcome!  
@@ -322,7 +319,7 @@ Contributions are welcome!
 - **Submit a pull request** to add new features.  
 
 ---
-
+---------------------------------------------------------------------------------
 ## 📧 **CONTACT**  
 **Developer**: Carnaverone Studio  
 **Email**: carnaverone@gmail.com  
