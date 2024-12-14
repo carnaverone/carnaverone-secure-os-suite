@@ -1,5 +1,32 @@
 
 # 📘 **CARNAVERONE SECURE OS SUITE**
+
+Welcome to the Carnaverone Secure OS Suite, a powerful collection of automation scripts designed to configure, secure, and optimize your development environment across multiple operating systems. This suite provides enhanced security, automation, and ease of use for both developers and IT professionals.
+
+Bienvenue dans la Carnaverone Secure OS Suite, une puissante collection de scripts d'automatisation conçue pour configurer, sécuriser et optimiser votre environnement de développement sur plusieurs systèmes d'exploitation. Cette suite offre une sécurité renforcée, une automatisation et une facilité d'utilisation pour les développeurs et les professionnels de l'informatique.
+
+🛡️ Supported Operating Systems / Systèmes d'exploitation pris en charge
+
+Ubuntu
+
+Arch Linux
+
+Pop!_OS
+
+Debian
+
+Fedora
+
+CentOS/Rocky/AlmaLinux
+
+macOS
+
+Windows (via WSL)
+
+This suite offers a seamless setup experience for development, security, and automation on the most popular operating systems.
+
+Cette suite offre une expérience de configuration transparente pour le développement, la sécurité et l'automatisation sur les systèmes d'exploitation les plus populaires.
+
 ------------------------------------------------------------------------------
 This repository contains **8 complete setup and configuration scripts** for the following operating systems:  
 - **Ubuntu**  
