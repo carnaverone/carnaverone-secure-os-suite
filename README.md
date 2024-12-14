@@ -139,7 +139,7 @@ Contributions are welcome!
 
 ## 📧 **CONTACT**  
 **Developer**: Carnaverone Studio  
-**Email**: contact@carnaverone.com  
+**Email**: carnaverone@gmail.com  
 """
 
 # Write the README.md file
