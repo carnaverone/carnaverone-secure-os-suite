@@ -30,8 +30,8 @@ This repository contains **8 complete setup and configuration scripts**
 
 ------------------------------------------------------------------------------
 ------------------------------------------------------------------------------
-![Aperçu des fonctionnalités](./images/image-1.png)
-
+![Image de couverture](./images/image-1.png)
+---------------------------------------------------------------------------------
 These scripts automatically install and configure a **fully secure development environment** with:  
 ------------------------------------------------------------------------------
 Ces scripts installent et configurent automatiquement un environnement de développement entièrement sécurisé avec :
@@ -61,9 +61,9 @@ Ces scripts installent et configurent automatiquement un environnement de dével
 | **`README.md`**                    | Full documentation and usage guide      |
 
 ---
-
+---------------------------------------------------------------------------------
 ## 📋 **EXECUTION INSTRUCTIONS**  
-
+---------------------------------------------------------------------------------
 ### 🚀 **STEP 1: GRANT EXECUTION PERMISSIONS**  
 Run the following command to make the scripts executable:  
 ```bash
@@ -71,7 +71,7 @@ chmod +x setup_full_ubuntu.sh setup_full_arch.sh setup_full_popos.sh setup_full_
 ```
 
 ---
-
+---------------------------------------------------------------------------------
 ### 🚀 **STEP 2: EXECUTE THE SCRIPT FOR YOUR OS**  
 Run the appropriate script depending on your operating system:  
 
@@ -116,7 +116,7 @@ Run the appropriate script depending on your operating system:
 ```
 
 ---
-
+---------------------------------------------------------------------------------
 ### 🚀 **STEP 3: VERIFY THE LOG FILE**  
 After the script completes, review the log file to verify the success of the installation:  
 ```bash
@@ -124,10 +124,9 @@ cat /mnt/data/testuser/setup_log.txt
 ```
 
 ---
-
-## 🖼️ **Script Execution Example**  
-![Script Execution](./images/script-execution.png)
-
+---------------------------------------------------------------------------------
+![Image de couverture](./images/image2.png)
+---------------------------------------------------------------------------------
 ---
 
 ## 🚀 **SCRIPT FEATURES**  
@@ -375,4 +374,5 @@ Les contributions sont les bienvenues ! N'hésitez pas à ouvrir une issue ou à
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 
-![API Flask TTS](./images/image-3.png)
+![Image de couverture](./images/image3.png)
+---------------------------------------------------------------------------------
