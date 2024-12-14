@@ -214,6 +214,7 @@ curl -X POST http://localhost:5000/tts     -H "Content-Type: application/json"  
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 ![Exemple d'exécution](./images/image-2.png)
+
 ⚙️ What Does This Suite Install? / Qu'installe cette suite ?
 
 📝 Note / Note : All tools installed are open-source to ensure transparency, security, and community support. / Tous les outils installés sont open-source pour garantir la transparence, la sécurité et le soutien de la communauté.
@@ -375,4 +376,4 @@ Les contributions sont les bienvenues ! N'hésitez pas à ouvrir une issue ou à
 ---------------------------------------------------------------------------------
 
 ![Image de couverture](./images/image3.png)
----------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
