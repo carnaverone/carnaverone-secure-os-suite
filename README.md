@@ -3,7 +3,7 @@ script pop os instalation securisation
 
 📋 Instructions for Execution
 
-pop os
+📋 POP OS
 
 Grant execution permissions to the script:
 
@@ -20,8 +20,10 @@ Check the log file:
     cat /mnt/data/testuser/setup_log.txt
 
 -----------------------------------------------------------------------------
-arch setup
+
 📋 Instructions d'exécution
+
+📋 SCRIPT ARCH SETUP
 
     Donnez les permissions d'exécution au script :
 
