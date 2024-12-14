@@ -1,7 +1,7 @@
 
-# 📘 **README.md - DEV-SECURE-AUTOMATION-SUITE-LINUX**
+# 📘 **README.md - CARNAVERONE SECURE OS SUITE**
 
-This repository contains **6 complete setup and configuration scripts** for the following operating systems:  
+This repository contains **8 complete setup and configuration scripts** for the following operating systems:  
 - **Ubuntu**  
 - **Arch Linux**  
 - **Pop!_OS**  
@@ -17,6 +17,11 @@ These scripts automatically install and configure a **fully secure development e
 - **Virtualization (QEMU, VirtualBox)**  
 - **Docker & Docker Compose**  
 - **Advanced Security Setup (UFW, Fail2Ban, Root Lockout)**  
+
+---
+
+## 🖼️ **Preview of Setup Scripts**  
+![Scripts Overview](./images/script-overview.png)
 
 ---
 
@@ -98,6 +103,11 @@ cat /mnt/data/testuser/setup_log.txt
 
 ---
 
+## 🖼️ **Script Execution Example**  
+![Script Execution](./images/script-execution.png)
+
+---
+
 ## 🚀 **SCRIPT FEATURES**  
 
 | **Feature**               | **Description**                            |
@@ -134,6 +144,11 @@ curl -X POST http://localhost:5000/tts     -H "Content-Type: application/json"  
 
 ---
 
+## 🖼️ **TTS API Overview**  
+![TTS API Overview](./images/tts-api-example.png)
+
+---
+
 ## 🧪 **TESTS AND VERIFICATIONS**  
 - ✅ **Log file verification**  
 - ✅ **File and directory permission checks**  
@@ -145,16 +160,20 @@ curl -X POST http://localhost:5000/tts     -H "Content-Type: application/json"  
 ## 📂 **FILE STRUCTURE**  
 
 ```
-📦 /dev-secure-automation-suite-linux
-├── setup_full_ubuntu.sh       # Full setup script for Ubuntu
-├── setup_full_arch.sh         # Full setup script for Arch Linux
-├── setup_full_popos.sh        # Full setup script for Pop!_OS
-├── setup_full_debian.sh       # Full setup script for Debian
-├── setup_full_fedora.sh       # Full setup script for Fedora
-├── setup_full_centos.sh       # Full setup script for CentOS/Rocky/AlmaLinux
-├── setup_full_macos.sh        # Full setup script for macOS
-├── setup_full_windows_wsl.sh  # Full setup script for Windows (via WSL)
-└── README.md                  # This README file
+📦 /carnaverone-secure-os-suite
+├── /images/                    # Images used in the README
+│   ├── script-overview.png     # Overview of scripts
+│   ├── script-execution.png    # Example of script execution
+│   └── tts-api-example.png     # Flask TTS API example
+├── setup_full_ubuntu.sh        # Full setup script for Ubuntu
+├── setup_full_arch.sh          # Full setup script for Arch Linux
+├── setup_full_popos.sh         # Full setup script for Pop!_OS
+├── setup_full_debian.sh        # Full setup script for Debian
+├── setup_full_fedora.sh        # Full setup script for Fedora
+├── setup_full_centos.sh        # Full setup script for CentOS/Rocky/AlmaLinux
+├── setup_full_macos.sh         # Full setup script for macOS
+├── setup_full_windows_wsl.sh   # Full setup script for Windows (via WSL)
+└── README.md                   # This README file
 ```
 
 ---
