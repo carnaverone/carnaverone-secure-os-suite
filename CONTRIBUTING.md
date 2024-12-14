@@ -60,3 +60,19 @@ We welcome contributions from everyone! Here's how you can contribute:
 3. **Submit a pull request** for review.
 
 For more details, see the [CONTRIBUTING.md](./CONTRIBUTING.md) file.
+
+---
+
+# 🛠️ **Contribuer à la Carnaverone Secure OS Suite**
+
+Merci de considérer une contribution à la **Carnaverone Secure OS Suite** ! Nous accueillons toutes les contributions, qu'il s'agisse de corrections de bogues, d'améliorations de fonctionnalités, de mises à jour de la documentation ou de nouvelles fonctionnalités.
+
+---
+
+## 🚀 **Comment contribuer ?**
+
+1️⃣ **Forkez ce dépôt** : Cliquez sur le bouton **“Fork”** en haut de cette page.  
+2️⃣ **Créez une nouvelle branche** : 
+   ```bash
+   git checkout -b feature/ma-nouvelle-fonctionnalite
+
