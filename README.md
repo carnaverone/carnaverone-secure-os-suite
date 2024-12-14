@@ -189,7 +189,106 @@ curl -X POST http://localhost:5000/tts     -H "Content-Type: application/json"  
 | **Docker issues**          | Restart Docker: `sudo systemctl restart docker` |
 
 ---
+⚙️ What Does This Suite Install? / Qu'installe cette suite ?
 
+The Carnaverone Secure OS Suite provides a robust set of essential tools and services for a secure development environment, including:
+
+🛠️ Development Tools / Outils de développement
+
+Docker & Docker Compose — Containerization platform and orchestration.
+
+Virtualization (QEMU, VirtualBox) — Tools for running virtual machines.
+
+🔐 Security Tools / Outils de sécurité
+
+UFW (Uncomplicated Firewall) — Easy-to-use firewall configuration.
+
+Fail2Ban — Intrusion prevention system to block IPs after failed login attempts.
+
+Root Lockout — Enhanced root account security to prevent unauthorized access.
+
+🖥️ System Services / Services système
+
+Flask TTS API — Custom API to generate Text-to-Speech (TTS) audio files.
+
+Systemd Services — Manages and runs system services for automation.
+
+🧰 Utility Tools / Outils utilitaires
+
+Package Updates — Automatic updates of system packages.
+
+Log Files — Detailed logs of script execution for debugging.
+
+La Carnaverone Secure OS Suite fournit un ensemble robuste d'outils et de services essentiels pour un environnement de développement sécurisé, notamment :
+
+🛠️ Outils de développement
+
+Docker & Docker Compose — Plateforme de conteneurisation et orchestration.
+
+Virtualisation (QEMU, VirtualBox) — Outils pour exécuter des machines virtuelles.
+
+🔐 Outils de sécurité
+
+UFW (Uncomplicated Firewall) — Configuration de pare-feu simple d'utilisation.
+
+Fail2Ban — Système de prévention des intrusions pour bloquer les IP après des tentatives de connexion échouées.
+
+Verrouillage du compte root — Sécurité renforcée du compte root pour éviter les accès non autorisés.
+
+🖥️ Services système
+
+API Flask TTS — API personnalisée pour générer des fichiers audio de synthèse vocale (TTS).
+
+Services systemd — Gère et exécute des services système pour l'automatisation.
+
+🧰 Outils utilitaires
+
+Mises à jour des paquets — Mises à jour automatiques des paquets système.
+
+Fichiers de journalisation — Journaux détaillés de l'exécution des scripts pour le débogage.
+
+📂 Repository Contents / Contenu du Répertoire
+
+File / Fichier
+
+Description
+
+setup_full_ubuntu.sh
+
+Full setup script for Ubuntu / Script de configuration complet pour Ubuntu
+
+setup_full_arch.sh
+
+Full setup script for Arch Linux / Script de configuration complet pour Arch Linux
+
+setup_full_popos.sh
+
+Full setup script for Pop!_OS / Script de configuration complet pour Pop!_OS
+
+setup_full_debian.sh
+
+Full setup script for Debian / Script de configuration complet pour Debian
+
+setup_full_fedora.sh
+
+Full setup script for Fedora / Script de configuration complet pour Fedora
+
+setup_full_centos.sh
+
+Full setup script for CentOS/Rocky/AlmaLinux / Script de configuration complet pour CentOS/Rocky/AlmaLinux
+
+setup_full_macos.sh
+
+Full setup script for macOS / Script de configuration complet pour macOS
+
+setup_full_windows_wsl.sh
+
+Full setup script for Windows (via WSL) / Script de configuration complet pour Windows (via WSL)
+
+README.md
+
+Full documentation and usage guide / Documentation complète et guide d'utilisation
+---
 ## 📋 **CONTRIBUTIONS**  
 Contributions are welcome!  
 - **Create an issue** to report bugs.  
