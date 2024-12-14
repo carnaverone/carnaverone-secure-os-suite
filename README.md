@@ -1,9 +1,29 @@
 # script-by-carna
-script pop os instalation securisation
+script instalation securisation linux os
+-------------------------------------------------------------------------------
+📋 Instructions exécution
+------------------------------------------------------------------------------- 
 
-📋 Instructions for Execution
+📋 UBUNTU LINUX
 
-📋 POP OS
+Grant execution permissions to the script:
+
+    
+    chmod +x setup_full_ubuntu.sh
+
+
+Run the script:
+
+    ./setup_full_ubuntu.sh
+       
+Check the log file:
+
+    cat /mnt/data/testuser/setup_log.txt
+
+
+------------------------------------------------------------------------------
+
+📋 POP OS LINUX
 
 Grant execution permissions to the script:
 
@@ -21,9 +41,7 @@ Check the log file:
 
 -----------------------------------------------------------------------------
 
-📋 Instructions d'exécution
-
-📋 SCRIPT ARCH SETUP
+📋 SCRIPT ARCH LINUX
 
     Donnez les permissions d'exécution au script :
 
