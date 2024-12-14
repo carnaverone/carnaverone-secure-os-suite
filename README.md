@@ -359,14 +359,8 @@ git push origin feature/my-new-feature
     Go to the Pull Requests tab and open a new PR.
     Accédez à l'onglet Pull Requests et ouvrez une nouvelle PR.
 
-
-## 🔐 **Branch Protection and Contribution Rules** / **Règles de Protection des Branches et Contributions**
-
-To ensure the stability and quality of the project, we have implemented strict branch protection rules for the `main` branch. These rules are designed to prevent unauthorized changes, ensure code quality, and enforce collaborative workflows.
-
-Pour garantir la stabilité et la qualité du projet, nous avons mis en place des règles strictes de protection pour la branche `main`. Ces règles visent à empêcher les modifications non autorisées, assurer la qualité du code et renforcer les workflows collaboratifs.
-
 ---
+## 🔐 **Branch Protection and Contribution Rules** / **Règles de Protection des Branches et Contributions**
 
 For more details on contributing, see the CONTRIBUTING.md file.
 Pour plus de détails sur la contribution, consultez le fichier CONTRIBUTING.md.
