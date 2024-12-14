@@ -243,6 +243,62 @@ Package Updates — Automatic updates of system packages. / Mises à jour automa
 
 Log Files — Detailed logs of script execution for debugging. / Journaux détaillés de l'exécution des scripts pour le débogage.
 
+📝 Note / Note : All tools installed are open-source to ensure transparency, security, and community support. / Tous les outils installés sont open-source pour garantir la transparence, la sécurité et le soutien de la communauté.
+
+🛠️ Development Tools / Outils de développement
+
+Docker & Docker Compose — Plateforme de conteneurisation et orchestration. / Plateforme de conteneurisation et orchestration.
+
+Virtualization (QEMU, VirtualBox) — Outils pour exécuter des machines virtuelles. / Outils pour exécuter des machines virtuelles.
+
+🔐 Security Tools / Outils de sécurité
+
+UFW (Uncomplicated Firewall) — Configuration de pare-feu simple d'utilisation. / Configuration de pare-feu simple d'utilisation.
+
+Fail2Ban — Système de prévention des intrusions pour bloquer les IP après des tentatives de connexion échouées. / Système de prévention des intrusions pour bloquer les IP après des tentatives de connexion échouées.
+
+Root Lockout — Sécurité renforcée du compte root pour éviter les accès non autorisés. / Sécurité renforcée du compte root pour éviter les accès non autorisés.
+
+🖥️ System Services / Services système
+
+API Flask TTS — API personnalisée pour générer des fichiers audio de synthèse vocale (TTS). / API personnalisée pour générer des fichiers audio de synthèse vocale (TTS).
+
+Systemd Services — Gère et exécute des services système pour l'automatisation. / Gère et exécute des services système pour l'automatisation.
+
+🧰 Utility Tools / Outils utilitaires
+
+Package Updates — Mises à jour automatiques des paquets système. / Mises à jour automatiques des paquets système.
+
+Log Files — Journaux détaillés de l'exécution des scripts pour le débogage. / Journaux détaillés de l'exécution des scripts pour le débogage.
+
+📝 Note / Note : All tools installed are open-source to ensure transparency, security, and community support. / Tous les outils installés sont open-source pour garantir la transparence, la sécurité et le soutien de la communauté.
+
+🛠️ Development Tools / Outils de développement
+
+Docker & Docker Compose — Containerization platform and orchestration. / Plateforme de conteneurisation et orchestration.
+
+Virtualization (QEMU, VirtualBox) — Tools for running virtual machines. / Outils pour exécuter des machines virtuelles.
+
+🔐 Security Tools / Outils de sécurité
+
+UFW (Uncomplicated Firewall) — Easy-to-use firewall configuration. / Configuration de pare-feu simple d'utilisation.
+
+Fail2Ban — Intrusion prevention system to block IPs after failed login attempts. / Système de prévention des intrusions pour bloquer les IP après des tentatives de connexion échouées.
+
+Root Lockout — Enhanced root account security to prevent unauthorized access. / Sécurité renforcée du compte root pour éviter les accès non autorisés.
+
+🖥️ System Services / Services système
+
+API Flask TTS — Custom API to generate Text-to-Speech (TTS) audio files. / API personnalisée pour générer des fichiers audio de synthèse vocale (TTS).
+
+Systemd Services — Manages and runs system services for automation. / Gère et exécute des services système pour l'automatisation.
+
+🧰 Utility Tools / Outils utilitaires
+
+Package Updates — Automatic updates of system packages. / Mises à jour automatiques des paquets système.
+
+Log Files — Detailed logs of script execution for debugging. / Journaux détaillés de l'exécution des scripts pour le débogage.
+
 📝 Note: All tools installed are open-source to ensure transparency, security, and community support.
 
 🛠️ Development Tools / Outils de développement
