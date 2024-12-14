@@ -298,10 +298,10 @@ Virtualization (QEMU, VirtualBox) — Outils pour exécuter des machines virtuel
 
 
  
----
-  📝 Note : All tools installed are open-source to ensure transparency, security, and community support.
+
+  📝 Note : All tools installed are open-source to ensure transparency, security, and community support. 
+  📝 Note : Tous les outils installés sont open-source pour garantir la transparence, la sécurité et le soutien de la communauté.
   ---
-  Note : Tous les outils installés sont open-source pour garantir la transparence, la sécurité et le soutien de la communauté.
 
 
 ## 🤝 Contributions / Contributions
