@@ -63,6 +63,8 @@ git push origin feature/my-new-feature
     Go to the Pull Requests tab and open a new PR.
     Accédez à l'onglet Pull Requests et ouvrez une nouvelle PR.
 
+For more details on contributing, see the CONTRIBUTING.md file.
+Pour plus de détails sur la contribution, consultez le fichier CONTRIBUTING.md.
 📋 License / Licence
 
 This project is licensed under the GNU General Public License v3.0.
@@ -72,10 +74,3 @@ See the LICENSE file for full license details.
 Ce projet est sous licence GNU General Public License v3.0.
 Vous êtes libre de copier, distribuer et modifier le logiciel conformément aux termes de cette licence.
 Consultez le fichier LICENSE pour les détails complets.
-
-
-### 📋 **Instructions pour mise à jour**
-1. Ajoutez ce texte **à la fin de votre README.md existant**.
-2. Assurez-vous que le fichier `LICENSE` est présent dans votre dépôt pour que les utilisateurs puissent consulter les détails.
-3. Si vous souhaitez des ajustements spécifiques, faites-le-moi savoir ! 😊
-
