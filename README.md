@@ -1,96 +1,215 @@
 # script-by-carna
-script instalation securisation linux os
--------------------------------------------------------------------------------
-📋 Instructions exécution
-------------------------------------------------------------------------------- 
+📘 README.md - Multi-OS Setup Scripts
 
-📋 UBUNTU LINUX
+This repository contains 3 complete installation and configuration scripts for Ubuntu, Arch Linux, and Debian-based systems (like Pop!_OS). Each script is designed to automate the installation of a complete development environment with advanced security, Flask TTS server, TTS tools, and Docker containers.
+📂 Repository Content
 
-Grant execution permissions to the script:
+    setup_full_ubuntu.sh : Script for Ubuntu 20.04, 22.04, and later versions.
+    setup_full_arch.sh : Script for Arch Linux.
+    setup_full_popos.sh : Script for Pop!_OS and other Debian-based distros.
 
-    
-    chmod +x setup_full_ubuntu.sh
+📋 Execution Instructions
+1️⃣ Grant execution permissions to the scripts
 
+chmod +x setup_full_ubuntu.sh setup_full_arch.sh setup_full_popos.sh
 
-Run the script:
+2️⃣ Run the script corresponding to your OS
 
-    ./setup_full_ubuntu.sh
-       
-Check the log file:
+For Ubuntu:
 
-    cat /mnt/data/testuser/setup_log.txt
+./setup_full_ubuntu.sh
 
-
-------------------------------------------------------------------------------
-
-📋 POP OS LINUX
-
-Grant execution permissions to the script:
-
-    
-    chmod +x setup_full.sh
-
-
-Run the script:
-
-       ./setup_full.sh
-       
-Check the log file:
-
-    cat /mnt/data/testuser/setup_log.txt
-
------------------------------------------------------------------------------
-
-📋 SCRIPT ARCH LINUX
-
-    Donnez les permissions d'exécution au script :
-
-chmod +x setup_full_arch.sh
-
-Exécutez le script :
+For Arch Linux:
 
 ./setup_full_arch.sh
 
-Vérifiez le fichier de log :
+For Pop!_OS:
+
+./setup_full_popos.sh
+
+3️⃣ Check the log file
+
+Each script generates a log file containing all the execution details.
+To check the log, run:
 
 cat /mnt/data/testuser/setup_log.txt
--------------------------------------------------------------------------------
 
+🚀 Script Features
 
-🔥 Summary
+    📁 Complete environment installation (TTS, security, Docker, Flask, virtualization)
+    📜 Action logging (detailed log file of all actions)
+    ✅ Automatic tests and checks (files, directories, permissions)
+    🔐 Advanced security (UFW, Fail2Ban, root account lockout)
+    📡 Flask TTS API server (generate on-demand audio files)
 
-    📁 Installation of a complete environment (TTS, security, Docker, Flask, virtualization)
-    📜 Action logging (complete log file of all operations)
-    ✅ Automatic checks and tests (files, directories, permissions)
-    🔐 Advanced security (UFW, Fail2Ban, root lockout)
-    📡 Flask TTS API server (to generate audio files on demand)
+📋 Detailed Features
+🛠️ 1. Installed Base Tools
 
+    System packages: curl, wget, git, vim, nano, unzip, zip, htop, neofetch, net-tools
+    Development tools: build-essential, python3-pip, openjdk, gradle
+    Security tools: ufw, fail2ban, auditd, rkhunter, chkrootkit, lynis
 
+🎙️ 2. Complete TTS System
 
---------------------------------------------------------------------------------
-📋 Instructions d'exécution
+    TTS tools:
+        Coqui TTS
+        Mozilla TTS
+        MaryTTS
+        eSpeak
+        Festival
+        Flite
 
-    
+    Flask TTS Server:
+        Accessible via a REST API on port 5000
+        Generate audio files via a simple HTTP POST request
 
-Donnez les permissions d'exécution au script :
-    
-    chmod +x setup_full.sh
+🐋 3. Containerization with Docker and Docker Compose
 
+    Docker installation
+    User added to Docker group
+    Docker service enabled at startup
 
-Run the script:
+🖥️ 4. Virtualization (QEMU, VirtualBox)
 
-       ./setup_full.sh
-       
-Check the log file:
+    VirtualBox (for full VM virtualization)
+    QEMU and KVM (for virtualized environments)
+    Libvirt for managing virtual machines
+    Services enabled at startup
 
-    cat /mnt/data/testuser/setup_log.txt
+🔐 5. Advanced Security
 
+    UFW Firewall:
+        Blocks all incoming connections by default
+        Opens ports 80 (HTTP) and 443 (HTTPS)
+        Activates the UFW service
+    Fail2Ban (to block brute-force attacks)
+    AuditD (to track system security events)
+    AppArmor (for application protection)
+    Root account lockout:
+        Locks the root user to block login access
 
-🔥 Résumé
+📋 How to Use the Flask TTS API
 
-    📁 Installation d'un environnement complet (TTS, sécurité, Docker, Flask, virtualisation)
-    📜 Journalisation des actions (fichier de log complet)
-    ✅ Vérifications et tests automatiques (fichiers, répertoires, permissions)
-    🔐 Sécurisation avancée (UFW, Fail2Ban, verrouillage root)
-    📡 Serveur Flask TTS API (pour générer des fichiers audio à la demande)
+The Flask TTS server allows you to generate audio files from a simple HTTP request.
+The Flask service runs automatically as a systemd service.
+🛠️ Systemd Service
 
+The systemd service is automatically activated during installation.
+To check its status:
+
+systemctl status tts-server
+
+To start/restart the service:
+
+sudo systemctl restart tts-server
+
+To enable the service at startup:
+
+sudo systemctl enable tts-server
+
+🧑‍💻 API Usage Example
+
+URL: http://localhost:5000/tts
+Method: POST
+Request Body (JSON):
+
+{
+    "text": "Hello, I am a voice generated by TTS"
+}
+
+Example cURL command:
+
+curl -X POST http://localhost:5000/tts \
+    -H "Content-Type: application/json" \
+    -d '{"text":"Hello, I am a voice generated by TTS"}' --output output.wav
+
+The output.wav file will be created and available for download.
+🧪 Tests and Verifications
+
+Each script performs automatic checks at runtime:
+
+    Log file verification
+    File permissions checks
+    Service status checks
+    TTS API endpoint testing
+
+📋 File Structure
+
+📦 /setup-scripts
+├── setup_full_ubuntu.sh       # Full setup script for Ubuntu
+├── setup_full_arch.sh         # Full setup script for Arch Linux
+├── setup_full_popos.sh        # Full setup script for Pop!_OS
+└── README.md                  # This README file
+
+📋 Example Log File
+
+Here’s an example of the log file at /mnt/data/testuser/setup_log.txt:
+
+🏗️ Starting installation and configuration...
+📦 Installing base tools...
+✅ Base tools installed
+🎙️ Installing TTS tools...
+✅ Coqui TTS, Mozilla TTS, MaryTTS, eSpeak, Festival, Flite installed
+🐋 Installing Docker and Docker Compose...
+✅ Docker and Docker Compose installed
+📦 Installing VirtualBox and QEMU...
+✅ VirtualBox and QEMU installed
+🔐 Installing security tools...
+✅ UFW firewall configured and enabled
+✅ Fail2Ban service enabled
+🚀 Configuring Flask TTS server...
+✅ Flask TTS server running
+📋 Final checks...
+✅ Log file /mnt/data/testuser/setup_log.txt found
+✅ Directory /mnt/data/testuser/tts_outputs exists
+✅ Log file permissions are correct
+✅ Installation and tests completed! No errors detected.
+
+🚀 Script Summary
+
+    setup_full_ubuntu.sh:
+        Full environment setup for Ubuntu (TTS, Flask, Docker, security, etc.)
+
+    setup_full_arch.sh:
+        Full environment setup for Arch Linux (TTS, Flask, Docker, security, etc.)
+
+    setup_full_popos.sh:
+        Full environment setup for Pop!_OS (TTS, Flask, Docker, security, etc.)
+
+📋 Troubleshooting
+
+If you encounter issues:
+
+    Check the log file:
+
+cat /mnt/data/testuser/setup_log.txt
+
+Restart services:
+
+sudo systemctl restart tts-server
+
+Reboot the system:
+
+    sudo reboot
+
+🔐 Is it safe to open-source this script?
+
+Exposing this script as open source is generally safe.
+However, here are some key points to consider:
+
+    No sensitive information is exposed (passwords, tokens, or private keys).
+    Server security best practices (like blocking the root user, enabling UFW, and using Fail2Ban) are followed.
+    If you plan to modify or customize the script, ensure no credentials are hardcoded.
+    Review for potential security holes, like unrestricted ports.
+
+📋 Contributions
+
+Contributions are welcome!
+
+    Create an issue to report bugs.
+    Submit a pull request to add new features.
+
+📧 Contact
+
+Developer: Carnaverone Studio
+Email: carnaverone@gmail.com
