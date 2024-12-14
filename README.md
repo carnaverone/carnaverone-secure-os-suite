@@ -3,7 +3,8 @@ script pop os instalation securisation
 
 📋 Instructions for Execution
 
-    Grant execution permissions to the script:
+Grant execution permissions to the script:
+
     
     chmod +x setup_full.sh
 
