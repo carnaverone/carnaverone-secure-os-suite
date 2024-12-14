@@ -31,18 +31,20 @@ This repository contains **8 complete setup and configuration scripts**
 ------------------------------------------------------------------------------
 ------------------------------------------------------------------------------
 ![Aperçu des fonctionnalités](./images/image-1.png)
+
 These scripts automatically install and configure a **fully secure development environment** with:  
+------------------------------------------------------------------------------
+Ces scripts installent et configurent automatiquement un environnement de développement entièrement sécurisé avec :
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
 - **Text-to-Speech (TTS) Tools**  
 - **Flask TTS API**  
 - **Virtualization (QEMU, VirtualBox)**  
 - **Docker & Docker Compose**  
 - **Advanced Security Setup (UFW, Fail2Ban, Root Lockout)**  
 
----
-
-## 🖼️ **Preview of Setup Scripts**  
+--- 
 ![Scripts Overview](./images/script-overview.png)
-
 ---
 
 ## 📂 **REPOSITORY CONTENT**  
@@ -358,15 +360,15 @@ Fichiers de journalisation — Journaux détaillés de l'exécution des scripts 
 ---------------------------------------------------------------------------------
 
 ---
-## 📋 **CONTRIBUTIONS**  
-Contributions are welcome!  
-- **Create an issue** to report bugs.  
-- **Submit a pull request** to add new features.  
+## 🤝 Contributions / Contributions
 
+Contributions are welcome! Feel free to open an issue or submit a pull request. We welcome bug reports, feature requests, and suggestions.
+
+Les contributions sont les bienvenues ! N'hésitez pas à ouvrir une issue ou à soumettre une pull request. Nous accueillons les rapports de bogues, les demandes de fonctionnalités et les suggestions.
 ---
 ---------------------------------------------------------------------------------
 ## 📧 **CONTACT**  
-**Developer**: Carnaverone Studio  
+**Developer**: carnaverone    Carnaverone Studio  
 **Email**: carnaverone@gmail.com  
 
 ---
