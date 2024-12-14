@@ -30,17 +30,21 @@ Check the log file:
 --------------------------------------------------------------------------------
 📋 Instructions d'exécution
 
-    Donnez les permissions d'exécution au script :
+    
 
-chmod +x setup_full.sh
+Donnez les permissions d'exécution au script :
+    
+    chmod +x setup_full.sh
 
-Exécutez le script :
 
-./setup_full.sh
+Run the script:
 
-Vérifiez le fichier de log :
+       ./setup_full.sh
+       
+Check the log file:
 
     cat /mnt/data/testuser/setup_log.txt
+
 
 🔥 Résumé
 
