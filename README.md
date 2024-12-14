@@ -249,8 +249,7 @@ Fail2Ban — Intrusion prevention system to block IPs after failed login attempt
 
 Root Lockout — Enhanced root account security to prevent unauthorized access. 
                Sécurité renforcée du compte root pour éviter les accès non autorisés.
-
-                                   
+                                 
 ---------------------------------------------------------------------------------
 
 🛠️ Development Tools 
@@ -260,12 +259,12 @@ Docker & Docker Compose — Containerization platform and orchestration.
                           Plateforme de conteneurisation et orchestration.
 Virtualization (QEMU, VirtualBox) — Tools for running virtual machines. 
                                     Outils pour exécuter des machines virtuelles.
-
+                                    
 ---------------------------------------------------------------------------------
 
 🖥️ System Services 
 🖥️ Services système
-
+---
 API Flask TTS — Custom API to generate Text-to-Speech (TTS) audio files. 
                 API personnalisée pour générer des fichiers audio de synthèse vocale (TTS).
 
@@ -276,13 +275,14 @@ Systemd Services — Manages and runs system services for automation.
 
 🧰 Utility Tools 
 🧰 Outils utilitaires
-
+---
 Package Updates — Automatic updates of system packages. 
                   Mises à jour automatiques des paquets système.
 
 Log Files — Detailed logs of script execution for debugging. 
             Journaux détaillés de l'exécution des scripts pour le débogage.
 
+---------------------------------------------------------------------------------
 
 🛠️ Development Tools 
 🛠️ Outils de développement
@@ -295,15 +295,14 @@ Virtualization (QEMU, VirtualBox) — Outils pour exécuter des machines virtuel
 
 
 
--------------------------------------------------------------------------
+
 📝 Note : All tools installed are open-source to ensure transparency, security, and community support. 
 📝 Note : Tous les outils installés sont open-source pour garantir la transparence, la sécurité et le soutien de la communauté.
--------------------------------------------------------------------------
+---
 
 ## 🤝 Contributions / Contributions
-
+---
 Contributions are welcome! Feel free to open an issue or submit a pull request. We welcome bug reports, feature requests, and suggestions.
-
 Les contributions sont les bienvenues ! N'hésitez pas à ouvrir une issue ou à soumettre une pull request. Nous accueillons les rapports de bogues, les demandes de fonctionnalités et les suggestions.
 ---
 ## 📧 **CONTACT**  
