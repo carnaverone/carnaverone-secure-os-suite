@@ -9,7 +9,7 @@ chmod +x setup_full.sh
 
 Run the script:
 
-./setup_full.sh
+   ./setup_full.sh
 
 Check the log file:
 
