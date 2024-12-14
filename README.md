@@ -215,62 +215,61 @@ curl -X POST http://localhost:5000/tts     -H "Content-Type: application/json"  
 ![Exemple d'exécution](./images/image-2.png)
 ⚙️ What Does This Suite Install? / Qu'installe cette suite ?
 
-The Carnaverone Secure OS Suite provides a robust set of essential tools and services for a secure development environment, including:
+📝 Note: All tools installed are open-source to ensure transparency, security, and community support.
 
 🛠️ Development Tools / Outils de développement
 
-Docker & Docker Compose — Containerization platform and orchestration.
-
-Virtualization (QEMU, VirtualBox) — Tools for running virtual machines.
-
-🔐 Security Tools / Outils de sécurité
-
-UFW (Uncomplicated Firewall) — Easy-to-use firewall configuration.
-
-Fail2Ban — Intrusion prevention system to block IPs after failed login attempts.
-
-Root Lockout — Enhanced root account security to prevent unauthorized access.
-
-🖥️ System Services / Services système
-
-Flask TTS API — Custom API to generate Text-to-Speech (TTS) audio files.
-
-Systemd Services — Manages and runs system services for automation.
-
-🧰 Utility Tools / Outils utilitaires
-
-Package Updates — Automatic updates of system packages.
-
-Log Files — Detailed logs of script execution for debugging.
-
-La Carnaverone Secure OS Suite fournit un ensemble robuste d'outils et de services essentiels pour un environnement de développement sécurisé, notamment :
-
-🛠️ Outils de développement
-
 Docker & Docker Compose — Plateforme de conteneurisation et orchestration.
 
-Virtualisation (QEMU, VirtualBox) — Outils pour exécuter des machines virtuelles.
+Virtualization (QEMU, VirtualBox) — Outils pour exécuter des machines virtuelles.
 
-🔐 Outils de sécurité
+🔐 Security Tools / Outils de sécurité
 
 UFW (Uncomplicated Firewall) — Configuration de pare-feu simple d'utilisation.
 
 Fail2Ban — Système de prévention des intrusions pour bloquer les IP après des tentatives de connexion échouées.
 
-Verrouillage du compte root — Sécurité renforcée du compte root pour éviter les accès non autorisés.
+Root Lockout — Sécurité renforcée du compte root pour éviter les accès non autorisés.
 
-🖥️ Services système
+🖥️ System Services / Services système
 
 API Flask TTS — API personnalisée pour générer des fichiers audio de synthèse vocale (TTS).
 
-Services systemd — Gère et exécute des services système pour l'automatisation.
+Systemd Services — Gère et exécute des services système pour l'automatisation.
 
-🧰 Outils utilitaires
+🧰 Utility Tools / Outils utilitaires
 
 Mises à jour des paquets — Mises à jour automatiques des paquets système.
 
 Fichiers de journalisation — Journaux détaillés de l'exécution des scripts pour le débogage.
 
+📝 Note: All tools installed are open-source to ensure transparency, security, and community support.
+
+🛠️ Development Tools / Outils de développement
+
+Docker & Docker Compose — Plateforme de conteneurisation et orchestration.
+
+Virtualization (QEMU, VirtualBox) — Outils pour exécuter des machines virtuelles.
+
+🔐 Security Tools / Outils de sécurité
+
+UFW (Uncomplicated Firewall) — Configuration de pare-feu simple d'utilisation.
+
+Fail2Ban — Système de prévention des intrusions pour bloquer les IP après des tentatives de connexion échouées.
+
+Root Lockout — Sécurité renforcée du compte root pour éviter les accès non autorisés.
+
+🖥️ System Services / Services système
+
+API Flask TTS — API personnalisée pour générer des fichiers audio de synthèse vocale (TTS).
+
+Systemd Services — Gère et exécute des services système pour l'automatisation.
+
+🧰 Utility Tools / Outils utilitaires
+
+Mises à jour des paquets — Mises à jour automatiques des paquets système.
+
+Fichiers de journalisation — Journaux détaillés de l'exécution des scripts pour le débogage.
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 
