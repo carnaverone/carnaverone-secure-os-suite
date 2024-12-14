@@ -30,6 +30,7 @@ This repository contains **8 complete setup and configuration scripts**
 
 ------------------------------------------------------------------------------
 ------------------------------------------------------------------------------
+![Aperçu des fonctionnalités](./images/image-1.png)
 These scripts automatically install and configure a **fully secure development environment** with:  
 - **Text-to-Speech (TTS) Tools**  
 - **Flask TTS API**  
@@ -211,6 +212,7 @@ curl -X POST http://localhost:5000/tts     -H "Content-Type: application/json"  
 
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
+![Exemple d'exécution](./images/image-2.png)
 ⚙️ What Does This Suite Install? / Qu'installe cette suite ?
 
 The Carnaverone Secure OS Suite provides a robust set of essential tools and services for a secure development environment, including:
@@ -288,3 +290,4 @@ Contributions are welcome!
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 
+![API Flask TTS](./images/image-3.png)
