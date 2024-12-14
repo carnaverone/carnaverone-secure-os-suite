@@ -1,6 +1,6 @@
 
-# 📘 **README.md - CARNAVERONE SECURE OS SUITE**
-
+# 📘 **CARNAVERONE SECURE OS SUITE**
+------------------------------------------------------------------------------
 This repository contains **8 complete setup and configuration scripts** for the following operating systems:  
 - **Ubuntu**  
 - **Arch Linux**  
@@ -10,7 +10,7 @@ This repository contains **8 complete setup and configuration scripts** for the 
 - **CentOS/Rocky/AlmaLinux**  
 - **macOS**  
 - **Windows (via WSL)**  
-
+------------------------------------------------------------------------------
 These scripts automatically install and configure a **fully secure development environment** with:  
 - **Text-to-Speech (TTS) Tools**  
 - **Flask TTS API**  
