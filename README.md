@@ -50,6 +50,7 @@ Ces scripts installent et configurent automatiquement un environnement de dével
 
 ![Scripts Overview](./images/script-overview.png)
 
+---
 
 ## 📂 **REPOSITORY CONTENT**  
 | **File**                          | **Description**                          |
@@ -297,18 +298,21 @@ Virtualization (QEMU, VirtualBox) — Outils pour exécuter des machines virtuel
 
 
 📝 Note : All tools installed are open-source to ensure transparency, security, and community support. 
+---
 📝 Note : Tous les outils installés sont open-source pour garantir la transparence, la sécurité et le soutien de la communauté.
 ---
 
 ## 🤝 Contributions / Contributions
 ---
 Contributions are welcome! Feel free to open an issue or submit a pull request. We welcome bug reports, feature requests, and suggestions.
+---
 Les contributions sont les bienvenues ! N'hésitez pas à ouvrir une issue ou à soumettre une pull request. Nous accueillons les rapports de bogues, les demandes de fonctionnalités et les suggestions.
 ---
 ## 📧 **CONTACT**  
+---
 **Developer**: carnaverone    Carnaverone Studio  
 **Email**: carnaverone@gmail.com  
-
+---
 
 
 <p align="center">
