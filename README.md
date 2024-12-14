@@ -34,14 +34,13 @@ This repository contains **8 complete setup and configuration scripts**
 
 
 ------------------------------------------------------------------------------
-------------------------------------------------------------------------------
-![Image de couverture](./images/image-1.png)
 ---------------------------------------------------------------------------------
 These scripts automatically install and configure a **fully secure development environment** with:  
 ------------------------------------------------------------------------------
 Ces scripts installent et configurent automatiquement un environnement de développement entièrement sécurisé avec :
 ------------------------------------------------------------------------------
 ------------------------------------------------------------------------------
+
 - **Text-to-Speech (TTS) Tools**  
 - **Flask TTS API**  
 - **Virtualization (QEMU, VirtualBox)**  
@@ -222,23 +221,23 @@ curl -X POST http://localhost:5000/tts     -H "Content-Type: application/json"  
 
 ---
 
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
 <p align="center">
   <img src="./images/image-2.png" alt="Exemple d'exécution" width="100%">
 </p>
-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+---
 
 ⚙️ What Does This Suite Install? / Qu'installe cette suite ?
 
-📝 Note / Note : All tools installed are open-source to ensure transparency, security, and community support. / Tous les outils installés sont open-source pour garantir la transparence, la sécurité et le soutien de la communauté.
-
+📝 Note : All tools installed are open-source to ensure transparency, security, and community support. 
+          Tous les outils installés sont open-source pour garantir la transparence, la sécurité et le soutien de la communauté.
+---
 🛠️ Development Tools / Outils de développement
 
 Docker & Docker Compose — Containerization platform and orchestration. / Plateforme de conteneurisation et orchestration.
 
 Virtualization (QEMU, VirtualBox) — Tools for running virtual machines. / Outils pour exécuter des machines virtuelles.
-
+---
 🔐 Security Tools / Outils de sécurité
 
 UFW (Uncomplicated Firewall) — Easy-to-use firewall configuration. / Configuration de pare-feu simple d'utilisation.
@@ -246,13 +245,13 @@ UFW (Uncomplicated Firewall) — Easy-to-use firewall configuration. / Configura
 Fail2Ban — Intrusion prevention system to block IPs after failed login attempts. / Système de prévention des intrusions pour bloquer les IP après des tentatives de connexion échouées.
 
 Root Lockout — Enhanced root account security to prevent unauthorized access. / Sécurité renforcée du compte root pour éviter les accès non autorisés.
-
+---
 🖥️ System Services / Services système
 
 API Flask TTS — Custom API to generate Text-to-Speech (TTS) audio files. / API personnalisée pour générer des fichiers audio de synthèse vocale (TTS).
 
 Systemd Services — Manages and runs system services for automation. / Gère et exécute des services système pour l'automatisation.
-
+---
 🧰 Utility Tools / Outils utilitaires
 
 Package Updates — Automatic updates of system packages. / Mises à jour automatiques des paquets système.
@@ -266,7 +265,7 @@ Log Files — Detailed logs of script execution for debugging. / Journaux détai
 Docker & Docker Compose — Plateforme de conteneurisation et orchestration. / Plateforme de conteneurisation et orchestration.
 
 Virtualization (QEMU, VirtualBox) — Outils pour exécuter des machines virtuelles. / Outils pour exécuter des machines virtuelles.
-
+---
 🔐 Security Tools / Outils de sécurité
 
 UFW (Uncomplicated Firewall) — Configuration de pare-feu simple d'utilisation. / Configuration de pare-feu simple d'utilisation.
@@ -274,13 +273,13 @@ UFW (Uncomplicated Firewall) — Configuration de pare-feu simple d'utilisation.
 Fail2Ban — Système de prévention des intrusions pour bloquer les IP après des tentatives de connexion échouées. / Système de prévention des intrusions pour bloquer les IP après des tentatives de connexion échouées.
 
 Root Lockout — Sécurité renforcée du compte root pour éviter les accès non autorisés. / Sécurité renforcée du compte root pour éviter les accès non autorisés.
-
+---
 🖥️ System Services / Services système
 
 API Flask TTS — API personnalisée pour générer des fichiers audio de synthèse vocale (TTS). / API personnalisée pour générer des fichiers audio de synthèse vocale (TTS).
 
 Systemd Services — Gère et exécute des services système pour l'automatisation. / Gère et exécute des services système pour l'automatisation.
-
+---
 🧰 Utility Tools / Outils utilitaires
 
 Package Updates — Mises à jour automatiques des paquets système. / Mises à jour automatiques des paquets système.
@@ -288,13 +287,13 @@ Package Updates — Mises à jour automatiques des paquets système. / Mises à 
 Log Files — Journaux détaillés de l'exécution des scripts pour le débogage. / Journaux détaillés de l'exécution des scripts pour le débogage.
 
 📝 Note / Note : All tools installed are open-source to ensure transparency, security, and community support. / Tous les outils installés sont open-source pour garantir la transparence, la sécurité et le soutien de la communauté.
-
+---
 🛠️ Development Tools / Outils de développement
 
 Docker & Docker Compose — Containerization platform and orchestration. / Plateforme de conteneurisation et orchestration.
 
 Virtualization (QEMU, VirtualBox) — Tools for running virtual machines. / Outils pour exécuter des machines virtuelles.
-
+---------------------------------------------------------------------------------
 🔐 Security Tools / Outils de sécurité
 
 UFW (Uncomplicated Firewall) — Easy-to-use firewall configuration. / Configuration de pare-feu simple d'utilisation.
@@ -302,13 +301,13 @@ UFW (Uncomplicated Firewall) — Easy-to-use firewall configuration. / Configura
 Fail2Ban — Intrusion prevention system to block IPs after failed login attempts. / Système de prévention des intrusions pour bloquer les IP après des tentatives de connexion échouées.
 
 Root Lockout — Enhanced root account security to prevent unauthorized access. / Sécurité renforcée du compte root pour éviter les accès non autorisés.
-
+---------------------------------------------------------------------------------
 🖥️ System Services / Services système
 
 API Flask TTS — Custom API to generate Text-to-Speech (TTS) audio files. / API personnalisée pour générer des fichiers audio de synthèse vocale (TTS).
 
 Systemd Services — Manages and runs system services for automation. / Gère et exécute des services système pour l'automatisation.
-
+---------------------------------------------------------------------------------
 🧰 Utility Tools / Outils utilitaires
 
 Package Updates — Automatic updates of system packages. / Mises à jour automatiques des paquets système.
@@ -316,13 +315,13 @@ Package Updates — Automatic updates of system packages. / Mises à jour automa
 Log Files — Detailed logs of script execution for debugging. / Journaux détaillés de l'exécution des scripts pour le débogage.
 
 📝 Note: All tools installed are open-source to ensure transparency, security, and community support.
-
+---------------------------------------------------------------------------------
 🛠️ Development Tools / Outils de développement
 
 Docker & Docker Compose — Plateforme de conteneurisation et orchestration.
 
 Virtualization (QEMU, VirtualBox) — Outils pour exécuter des machines virtuelles.
-
+---------------------------------------------------------------------------------
 🔐 Security Tools / Outils de sécurité
 
 UFW (Uncomplicated Firewall) — Configuration de pare-feu simple d'utilisation.
@@ -330,27 +329,27 @@ UFW (Uncomplicated Firewall) — Configuration de pare-feu simple d'utilisation.
 Fail2Ban — Système de prévention des intrusions pour bloquer les IP après des tentatives de connexion échouées.
 
 Root Lockout — Sécurité renforcée du compte root pour éviter les accès non autorisés.
-
+---------------------------------------------------------------------------------
 🖥️ System Services / Services système
 
 API Flask TTS — API personnalisée pour générer des fichiers audio de synthèse vocale (TTS).
 
 Systemd Services — Gère et exécute des services système pour l'automatisation.
-
+---------------------------------------------------------------------------------
 🧰 Utility Tools / Outils utilitaires
 
 Mises à jour des paquets — Mises à jour automatiques des paquets système.
 
 Fichiers de journalisation — Journaux détaillés de l'exécution des scripts pour le débogage.
-
+---------------------------------------------------------------------------------
 📝 Note: All tools installed are open-source to ensure transparency, security, and community support.
-
+---------------------------------------------------------------------------------
 🛠️ Development Tools / Outils de développement
 
 Docker & Docker Compose — Plateforme de conteneurisation et orchestration.
 
 Virtualization (QEMU, VirtualBox) — Outils pour exécuter des machines virtuelles.
-
+---------------------------------------------------------------------------------
 🔐 Security Tools / Outils de sécurité
 
 UFW (Uncomplicated Firewall) — Configuration de pare-feu simple d'utilisation.
@@ -358,18 +357,19 @@ UFW (Uncomplicated Firewall) — Configuration de pare-feu simple d'utilisation.
 Fail2Ban — Système de prévention des intrusions pour bloquer les IP après des tentatives de connexion échouées.
 
 Root Lockout — Sécurité renforcée du compte root pour éviter les accès non autorisés.
-
+---------------------------------------------------------------------------------
 🖥️ System Services / Services système
 
 API Flask TTS — API personnalisée pour générer des fichiers audio de synthèse vocale (TTS).
 
 Systemd Services — Gère et exécute des services système pour l'automatisation.
-
+---------------------------------------------------------------------------------
 🧰 Utility Tools / Outils utilitaires
 
 Mises à jour des paquets — Mises à jour automatiques des paquets système.
 
 Fichiers de journalisation — Journaux détaillés de l'exécution des scripts pour le débogage.
+
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 
@@ -391,4 +391,6 @@ Les contributions sont les bienvenues ! N'hésitez pas à ouvrir une issue ou à
 <p align="center">
   <img src="./images/image-3.png" alt="Exemple d'exécution" width="100%">
 </p>
-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
