@@ -1,4 +1,4 @@
-
+![Image de couverture](./images/imagecover.png)
 ---------------------------------------------------------------------------------
 README.md
 ---------------------------------------------------------------------------------
@@ -271,46 +271,6 @@ Fichiers de journalisation — Journaux détaillés de l'exécution des scripts 
 
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-📂 Repository Contents / Contenu du Répertoire
-
-File / Fichier
-
-Description
-
-setup_full_ubuntu.sh
-
-Full setup script for Ubuntu / Script de configuration complet pour Ubuntu
-
-setup_full_arch.sh
-
-Full setup script for Arch Linux / Script de configuration complet pour Arch Linux
-
-setup_full_popos.sh
-
-Full setup script for Pop!_OS / Script de configuration complet pour Pop!_OS
-
-setup_full_debian.sh
-
-Full setup script for Debian / Script de configuration complet pour Debian
-
-setup_full_fedora.sh
-
-Full setup script for Fedora / Script de configuration complet pour Fedora
-
-setup_full_centos.sh
-
-Full setup script for CentOS/Rocky/AlmaLinux / Script de configuration complet pour CentOS/Rocky/AlmaLinux
-
-setup_full_macos.sh
-
-Full setup script for macOS / Script de configuration complet pour macOS
-
-setup_full_windows_wsl.sh
-
-Full setup script for Windows (via WSL) / Script de configuration complet pour Windows (via WSL)
-
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
 
 ---
 ## 📋 **CONTRIBUTIONS**  
@@ -323,3 +283,8 @@ Contributions are welcome!
 ## 📧 **CONTACT**  
 **Developer**: Carnaverone Studio  
 **Email**: carnaverone@gmail.com  
+
+---
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+
