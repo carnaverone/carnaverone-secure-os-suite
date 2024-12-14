@@ -127,14 +127,15 @@ After the script completes, review the log file to verify the success of the ins
 ```bash
 cat /mnt/data/testuser/setup_log.txt
 ```
-
+---
+---------------------------------------------------------------------------------
 
 
 <p align="center">
   <img src="./images/image-1.png" alt="Exemple d'exécution" width="100%">
 </p>
 
-
+---------------------------------------------------------------------------------
 
 ## 🚀 **SCRIPT FEATURES**  
 
@@ -216,7 +217,7 @@ curl -X POST http://localhost:5000/tts     -H "Content-Type: application/json"  
 | **Port 5000 already used** | Kill the process: `sudo fuser -k 5000/tcp` |
 | **Docker issues**          | Restart Docker: `sudo systemctl restart docker` |
 
-
+---------------------------------------------------------------------------------
 <p align="center">
   <img src="./images/image-2.png" alt="Exemple d'exécution" width="100%">
 </p>
@@ -313,7 +314,7 @@ Les contributions sont les bienvenues ! N'hésitez pas à ouvrir une issue ou à
 **Developer**: carnaverone    Carnaverone Studio  
 **Email**: carnaverone@gmail.com  
 ---
-
+---------------------------------------------------------------------------------
 
 <p align="center">
   <img src="./images/image-3.png" alt="Exemple d'exécution" width="100%">
