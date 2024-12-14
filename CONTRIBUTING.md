@@ -39,7 +39,6 @@ Le fichier **README.md** doit inclure une section sur la **licence et les contri
 
 ---
 
-### 📁 **Section à inclure dans README.md**
 ```markdown
 ---
 
