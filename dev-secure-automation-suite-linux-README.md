@@ -1,6 +1,8 @@
 
-# 📘 **README.md - DEV-SECURE-AUTOMATION-SUITE-LINUX**
-
+# 
+---------------------------------------------------------------------------
+DEV-SECURE-AUTOMATION-SUITE-LINUX**
+---------------------------------------------------------------------------
 This repository contains **3 complete setup and configuration scripts** for **Ubuntu**, **Arch Linux**, and **Pop!_OS**.  
 These scripts automatically install and configure a **fully secure development environment** with:  
 - **Text-to-Speech (TTS) Tools**  
