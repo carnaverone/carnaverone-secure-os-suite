@@ -75,7 +75,7 @@ Run the following command to make the scripts executable:
 chmod +x setup_full_ubuntu.sh setup_full_arch.sh setup_full_popos.sh setup_full_debian.sh setup_full_fedora.sh setup_full_centos.sh setup_full_macos.sh setup_full_windows_wsl.sh
 ```
 
----
+
 ---------------------------------------------------------------------------------
 ### 🚀 **STEP 2: EXECUTE THE SCRIPT FOR YOUR OS**  
 Run the appropriate script depending on your operating system:  
@@ -120,14 +120,14 @@ Run the appropriate script depending on your operating system:
 ./setup_full_windows_wsl.sh
 ```
 
----
+
 ---------------------------------------------------------------------------------
 ### 🚀 **STEP 3: VERIFY THE LOG FILE**  
 After the script completes, review the log file to verify the success of the installation:  
 ```bash
 cat /mnt/data/testuser/setup_log.txt
 ```
----
+
 ---------------------------------------------------------------------------------
 
 
