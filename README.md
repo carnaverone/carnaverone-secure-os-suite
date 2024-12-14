@@ -1,6 +1,11 @@
-![Image de couverture](./images/imagecover.png)
+
+Bienvenue dans la **Carnaverone Secure OS Suite**, une puissante collection de scripts d'automatisation conçue pour configurer, sécuriser et optimiser votre environnement de développement sur plusieurs systèmes d'exploitation.
+
 ---------------------------------------------------------------------------------
-README.md
+<p align="center">
+  <img src="./images/imagecover.png" alt="Image de couverture" width="100%">
+</p>
+
 ---------------------------------------------------------------------------------
 Full documentation and usage guide / Documentation complète et guide d'utilisation
 ---------------------------------------------------------------------------------
@@ -125,7 +130,10 @@ cat /mnt/data/testuser/setup_log.txt
 
 ---
 ---------------------------------------------------------------------------------
-![Image de couverture](./images/image2.png)
+<p align="center">
+  <img src="./images/image2.png" alt="Image de couverture" width="100%">
+</p>
+
 ---------------------------------------------------------------------------------
 ---
 
@@ -374,6 +382,7 @@ Les contributions sont les bienvenues ! N'hésitez pas à ouvrir une issue ou à
 ---
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-
-![Image de couverture](./images/image-3.png)
+<p align="center">
+  <img src="./images/image-3.png" alt="Exemple d'exécution" width="100%">
+</p>
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
