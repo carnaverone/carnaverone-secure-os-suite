@@ -309,7 +309,23 @@ Virtualization (QEMU, VirtualBox) — Outils pour exécuter des machines virtuel
   📝 Note : Tous les outils installés sont open-source pour garantir la transparence, la sécurité et le soutien de la communauté.
   ---
 
+---
 
+**🔷 FOR prog install nvdia and dev env:**  
+```bash
+./setup_pop_os_prog_intall_bonus_nvdia.sh
+```
+
+Catégorie	Outils installés
+Graphisme	GIMP, Blender, Inkscape, Krita, SVG Cleaner
+Audio / DAW	Ardour, LMMS, Carla, PulseAudio, PipeWire
+Crypto	Metamask, Bitwarden, KeepassXC, Brave Browser
+OSINT / Sécurité	Shodan, Recon-ng, Tor, Proxychains, DNSutils
+Cloud / Productivité	Mega, Discord, Telegram, Thunderbird, Obsidian
+Développement	Git, Docker, Node.js, Visual Studio Code, Python 3.10, Conda, Pyenv
+IA Locale	LocalAI, Torch, Transformers, Whisper, Docker
+
+---
 ## 🤝 Contributions / Contributions
 
 
