@@ -64,6 +64,7 @@ Ces scripts installent et configurent automatiquement un environnement de dével
 | **`setup_full_macos.sh`**          | Full setup script for **macOS**          |
 | **`setup_full_windows_wsl.sh`**    | Full setup script for **Windows (via WSL)** |
 | **`README.md`**                    | Full documentation and usage guide      |
+| **`setup_pop_os_prog_intall_bonus.sh`** | FOR prog install nvdia and dev env | 
 
 ---
 ---------------------------------------------------------------------------------
