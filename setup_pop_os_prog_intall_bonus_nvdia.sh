@@ -16,25 +16,25 @@ sudo apt install -y nvidia-cuda-toolkit nvidia-cudnn8 nvidia-cudnn8-dev
 # ==========================
 # 🔥 OUTILS GRAPHIQUES ET MULTIMÉDIA
 # ==========================
-echo "🎉 Installation des outils graphiques (GIMP, Blender, etc.)..."
-sudo apt install -y gimp darktable inkscape krita blender xnviewmp font-manager svgcleaner 
+echo "🎉 Installation des outils graphiques et multimédias (GIMP, Blender, etc.)..."
+sudo apt install -y gimp darktable inkscape krita blender xnviewmp font-manager svgcleaner
 
 # ==========================
 # 🎥 MONTAGE VIDÉO ET STREAMING
 # ==========================
-echo "🎥 Installation des outils de montage vidéo (OBS, Handbrake, etc.)..."
-sudo apt install -y obs-studio kdenlive handbrake simplescreenrecorder ffmpeg yt-dlp youtube-dl 
+echo "🎥 Installation des outils de montage vidéo et streaming (OBS, Handbrake, etc.)..."
+sudo apt install -y obs-studio kdenlive handbrake simplescreenrecorder ffmpeg yt-dlp youtube-dl
 
 # ==========================
 # 🎶 PRODUCTION AUDIO (DAW)
 # ==========================
-echo "🎶 Installation des DAW (Ardour, LMMS, etc.)..."
-sudo apt install -y ardour lmms carla qjackctl pulseaudio pipewire 
+echo "🎶 Installation des outils de production audio (Ardour, LMMS, etc.)..."
+sudo apt install -y ardour lmms carla qjackctl pulseaudio pipewire calf-plugins lv2-dev ladspa-sdk dssi vamp-plugin-sdk
 
 # ==========================
 # 🐍 INSTALLATION DE PYTHON, CONDA, IA LOCALE
 # ==========================
-echo "🐍 Installation de Python 3.10, Conda, Pip, Pyenv..."
+echo "🐍 Installation de Python 3.10, Conda, Pip, Pyenv, et outils IA..."
 sudo apt install -y python3.10 python3.10-venv python3.10-dev python3-pip
 sudo apt install -y build-essential libssl-dev libffi-dev
 curl https://pyenv.run | bash
@@ -47,10 +47,10 @@ export PATH="$HOME/miniconda/bin:$PATH"
 source ~/.bashrc
 
 # ==========================
-# 🛠️ OUTILS DE DÉVELOPPEMENT ET CYBERSÉCURITÉ
+# 🛠️ DÉVELOPPEMENT ET CYBERSÉCURITÉ
 # ==========================
-echo "🛠️ Installation des outils de développement (Git, Docker, etc.)..."
-sudo apt install -y git git-lfs gh curl wget neofetch htop tmux exa bat ncdu 
+echo "🛠️ Installation des outils de développement et cybersécurité..."
+sudo apt install -y git git-lfs gh curl wget neofetch htop tmux exa bat ncdu
 
 # Installer Docker et Docker Compose
 echo "🐋 Installation de Docker et Docker Compose..."
@@ -77,27 +77,22 @@ code --install-extension ms-vscode.vscode-typescript-tslint-plugin
 code --install-extension ms-azuretools.vscode-docker
 
 # ==========================
-# 🔐 CRYPTO-MONNAIE, PORTEFEUILLE ET SÉCURITÉ
+# 🔐 CRYPTO ET SÉCURITÉ
 # ==========================
-echo "🔐 Installation des outils de sécurité, gestion des mots de passe, wallets crypto..."
+echo "🔐 Installation des outils de cryptomonnaie et sécurité..."
 sudo apt install -y keepassxc
-wget -qO - https://brave-browser-apt-release.s3.brave.com/brave-core.asc | sudo apt-key add -
-sudo add-apt-repository "deb [arch=amd64] https://brave-browser-apt-release.s3.brave.com/ stable main"
-sudo apt update && sudo apt install -y brave-browser
-sudo snap install metamask
-sudo snap install bitwarden
+sudo snap install metamask bitwarden
+sudo apt install -y brave-browser
 
 # ==========================
 # 📡 STOCKAGE CLOUD ET COMMUNICATION
 # ==========================
 echo "📡 Installation des outils cloud et de communication..."
-sudo snap install mega-cmd
-sudo snap install discord
-sudo snap install telegram-desktop
+sudo snap install mega-cmd discord telegram-desktop
 sudo apt install -y thunderbird 
 
 # ==========================
-# 🚀 INSTALLATION D'OUTILS OSINT ET CYBERSÉCURITÉ
+# 🚀 OSINT ET CYBERSÉCURITÉ
 # ==========================
 echo "🕵️ Installation des outils OSINT et cybersécurité..."
 sudo apt install -y tor proxychains4 whois dnsutils
@@ -105,21 +100,22 @@ pip3 install shodan
 sudo apt install -y recon-ng
 
 # ==========================
-# 🤖 INSTALLATION D'OUTILS D'IA EN LOCAL
+# 🤖 IA LOCALE ET GÉNÉRATION D'IMAGES
 # ==========================
-echo "🧠 Installation des outils d'intelligence artificielle (Stable Diffusion, Whisper, etc.)..."
+echo "🧠 Installation des outils IA (Torch, Whisper, Transformers)..."
 pip3 install torch torchvision torchaudio transformers openai 
 
-# Installation de LocalAI (alternative locale à OpenAI)
+# Installation de LocalAI
 echo "📦 Installation de LocalAI..."
 sudo docker pull go-skynet/local-ai
 sudo docker run -d -p 8080:8080 --name local-ai go-skynet/local-ai
 
 # ==========================
-# 📓 INSTALLATION D'OBSIDIAN ET AUTRES
+# 📓 OUTILS DE PRODUCTIVITÉ
 # ==========================
 echo "📚 Installation d'Obsidian, Telegram et Discord..."
 sudo snap install obsidian
+sudo snap install discord telegram-desktop
 
 # ==========================
 # 🎉 CONFIGURATION DES SERVICES
