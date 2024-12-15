@@ -64,7 +64,7 @@ Ces scripts installent et configurent automatiquement un environnement de dével
 | **`setup_full_macos.sh`**          | Full setup script for **macOS**          |
 | **`setup_full_windows_wsl.sh`**    | Full setup script for **Windows (via WSL)** |
 | **`README.md`**                    | Full documentation and usage guide      |
-| **`setup_pop_os_prog_intall_bonus_nvdia`** | FOR prog install nvdia and dev env | 
+| **`setup_pop_os_prog_intall_bonus_nvdia.sh`** | FOR prog install nvdia and dev env | 
 
 ---
 ---------------------------------------------------------------------------------
@@ -73,7 +73,7 @@ Ces scripts installent et configurent automatiquement un environnement de dével
 ### 🚀 **STEP 1: GRANT EXECUTION PERMISSIONS**  
 Run the following command to make the scripts executable:  
 ```bash
-chmod +x setup_full_ubuntu.sh setup_full_arch.sh setup_full_popos.sh setup_full_debian.sh setup_full_fedora.sh setup_full_centos.sh setup_full_macos.sh setup_full_windows_wsl.sh setup_pop_os_prog_intall_bonus_nvdia
+chmod +x setup_full_ubuntu.sh setup_full_arch.sh setup_full_popos.sh setup_full_debian.sh setup_full_fedora.sh setup_full_centos.sh setup_full_macos.sh setup_full_windows_wsl.sh setup_pop_os_prog_intall_bonus_nvdia.sh
 ```
 
 
@@ -123,7 +123,7 @@ Run the appropriate script depending on your operating system:
 
 **🔷 FOR prog install nvdia and dev env:**  
 ```bash
-./setup_pop_os_prog_intall_bonus_nvdia
+./setup_pop_os_prog_intall_bonus_nvdia.sh
 ```
 
 ---------------------------------------------------------------------------------
